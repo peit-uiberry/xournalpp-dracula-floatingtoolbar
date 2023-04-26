@@ -11,7 +11,7 @@
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-git clone https://github.com/peit-uiberry/xournalpp-dracula-floatingtoolbar.git
+    git clone https://github.com/peit-uiberry/xournalpp-dracula-floatingtoolbar.git
 
 ### Install manually
 
