@@ -1,27 +1,30 @@
 # Dracula for [Xournal++](https://xournalpp.github.io)
 
-> A dark theme for [Xournal++](https://xournalpp.github.io).
+> A dark theme with floating toolbar for [Xournal++](https://xournalpp.github.io).
 
 ![Screenshot](./screenshot.png)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/xournalpp](https://draculatheme.com/xournalpp).
 
-## Team
+### Install using Git
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/xournalpp/graphs/contributors).
+If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-| [![Tim Clifford](https://github.com/tim-clifford.png?size=100)](https://github.com/tim-clifford) |
-| ------------------------------------------------------------------------------------------------ |
-| [Tim Clifford](https://github.com/tim-clifford)                                                  |
+git clone https://github.com/peit-uiberry/xournalpp-dracula-floatingtoolbar.git
 
-## Community
+### Install manually
 
-- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
-- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+Download using the [GitHub .zip download](https://github.com/peit-uiberry/xournalpp-dracula-floatingtoolbar/archive/refs/heads/master.zip) option and unzip them.
 
-## License
+## Activating theme
 
-[MIT License](./LICENSE)
+Append the contents of dracula-toolbar.ini to ~/.xournalpp/toolbar.ini<br>
+
+    cat dracula-toolbar.ini >> tooblar.ini
+In Xournal++, navigate to *View -> Toolbars* and choose the Dracula toolbar<br/>
+In Xournal++, navigate to *Journal -> Configure Page Template* and set Background Color to #282a36<br/>
+Make sure you have the floating toolbar acessible by assigning it to a stylus button: <br/>
+*Edit -> Preferences -> Stylus Buttons* <br/>
+
+I also reccomend changing the border color for curent page to something like #BF4040
